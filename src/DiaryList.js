@@ -1,7 +1,6 @@
 import DiaryItem from "./DiaryItem";
 
 const DiaryList = ({ onEdit, onRemove, diaryList }) => {
-  console.log(diaryList); //undefined로 전달됨
   return (
     <div className="DiaryList">
       <h2>일기 리스트</h2>
